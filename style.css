@@ -152,7 +152,7 @@ body {
   text-decoration: none;
   color: #ffda45;
   padding: 20px 37px;
-  background: #330099;
+  background: #309;
   border-radius: 50px;
   display: block;
   margin: 0 auto;
@@ -409,7 +409,7 @@ form input {
     margin: 0 0 50px 0;
   }
 
-      .header__description-first {
+  .header__description-first {
     padding: 69px 0 9px 36%;
     width: 53%;
     margin: 0 0 10px 0;
@@ -703,12 +703,12 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     padding: 15px 82px;
     color: #fff;
-    background: #4AB272;
+    background: #4ab272;
     border-radius: 50px;
   }
 
   .basement {
-    background: #330099;
+    background: #309;
   }
 
   .basement__title {
@@ -1039,10 +1039,11 @@ form input {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
+    background: no-repeat  bottom url(ico/scroll.png);
   }
 
-  .subMain__column-second, .subMain__column-third {
+  .subMain__column-second,
+  .subMain__column-third {
     display: none;
   }
 
@@ -1344,7 +1345,7 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .main__column-subtitle-third {
@@ -1416,16 +1417,12 @@ form input {
   .subMain__column-first-subtitle {
     font: 500 14px/17px 'Montserrat', arial, helvetica, sans-serif;
     color: #585858;
-    display: block;
+    display: none;
     padding-bottom: 20vw;
     text-align: center;
     width: 90%;
     margin: 0 auto;
     background: no-repeat  bottom url(ico/scroll.png)
-  }
-
-  .subMain__column-first-subtitle {
-    display: none;
   }
 
   .subMain__column-second, .subMain__column-third {
