@@ -1420,7 +1420,7 @@ form input {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
+    background: no-repeat  bottom url(ico/scroll.png);
   }
 
   .subMain__column-second,
