@@ -11,8 +11,8 @@ body {
   justify-content: flex-end;
   align-items: center;
   padding: 30px 0;
-  border-top: 3px solid #330099;
-  border-bottom: 3px solid #330099;
+  border-top: 3px solid #309;
+  border-bottom: 3px solid #309;
 }
 
 .menu__item {
@@ -29,7 +29,7 @@ body {
 .menu__item-сall {
   font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
   padding: 13px 30px 13px 30px;
-  background: #330099;
+  background: #309;
   text-decoration: none;
   color: #fff;
   border-radius: 50px;
@@ -57,7 +57,7 @@ body {
 .header__description-first {
   display: block;
   font: 900 40px/49px 'Montserrat', arial, helvetica, sans-serif;
-  color: #330099;
+  color: #309;
   padding: 151px 0 0 53%;
   width: 38%;
   text-align: right;
@@ -92,13 +92,17 @@ body {
   justify-content: space-between;
 }
 
-.main__column-title, .main__column-title-second, .main__column-title-third {
+.main__column-title,
+.main__column-title-second,
+.main__column-title-third {
   font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin-bottom: 9px;
 }
 
-.main__column-subtitle, .main__column-subtitle-second, .main__column-subtitle-third {
+.main__column-subtitle,
+.main__column-subtitle-second,
+.main__column-subtitle-third {
   font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
   width: 95%;
   margin: 0 auto;
@@ -153,7 +157,6 @@ body {
   display: block;
   margin: 0 auto;
   width: 272px;
-
 }
 
 .subMain {
@@ -354,7 +357,7 @@ form input {
     width: 40%;
     padding: 0 5px 133px 49.5%;
     text-align: right;
- }
+  }
 
   .subMain__column-first {
     width: 88%;
@@ -399,8 +402,7 @@ form input {
     width: 40%;
     padding: 0 5px 133px 49.5%;
     text-align: right;
- }
-
+  }
 }
 
 @media (max-width: 875px) {
@@ -420,14 +422,14 @@ form input {
     width: 40%;
     padding: 0 5px 133px 49.5%;
     text-align: right;
- }
+  }
 
     .main__column-title, .main__column-title-second, .main__column-title-third {
     font: 900 20px/37px 'Montserrat', arial, helvetica, sans-serif;
   }
 
   form {
-    padding-left: 0px;
+    padding-left: 0;
   }
 }
 
@@ -467,7 +469,6 @@ form input {
     text-decoration: none;
     color: #fff;
     border-radius: 50px;
-    padding: 5px 11px;
     margin-right: 3%;
 }
 
@@ -488,9 +489,6 @@ form input {
     text-align: right;
     color: #fff;
   }
-
-
-
 
   .main {
     margin-bottom: 15vw;
@@ -569,7 +567,7 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .main__column-subtitle-third {
@@ -611,7 +609,7 @@ form input {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
+    background: no-repeat  bottom url(ico/scroll.png);
   }
 
   .subMain__title {
@@ -646,10 +644,7 @@ form input {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
-  }
-
-  .subMain__column-first-subtitle {
+    background: no-repeat  bottom url(ico/scroll.png);
     display: none;
   }
 
@@ -751,15 +746,14 @@ form input {
   }
 }
 
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
   form {
     padding-left: 20%;
     margin: 0;
   }
 }
 
-@media (max-width: 473px) { 
-
+@media (max-width: 473px) {
   .menu__item {
     display: none;
   }
@@ -838,14 +832,14 @@ form input {
     padding: 175px 0;
     list-style: none;
     text-align: center;
-    background-color: #FFDA45;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    background-color: #ffda45;
+    box-shadow: 1px 0 6px rgba(.2);
   }
 
   .menu__items {
     display: block;
     padding: 12px 24px;
-    color: #330099;
+    color: #309;
     font: normal 25px/35px 'Montserrat', arial, helvetica, sans-serif;
     text-decoration: none;
   }
@@ -1132,8 +1126,8 @@ form input {
   }
 
   .basement__logo-img {
-    width: 35px !important;
-    height: 35px !important;
+    width: 35px;
+    height: 35px;
   }
 
   .basement__rights {
@@ -1144,8 +1138,6 @@ form input {
     padding-bottom: 10vw;
   }
 }
-
-  /* Стили для мобильной версии */
 
 @media (max-width: 320px) {
 
