@@ -11,8 +11,8 @@ body {
   justify-content: flex-end;
   align-items: center;
   padding: 30px 0;
-  border-top: 3px solid #330099;
-  border-bottom: 3px solid #330099;
+  border-top: 3px solid #309;
+  border-bottom: 3px solid #309;
 }
 
 .menu__item {
@@ -29,7 +29,7 @@ body {
 .menu__item-сall {
   font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
   padding: 13px 30px 13px 30px;
-  background: #330099;
+  background: #309;
   text-decoration: none;
   color: #fff;
   border-radius: 50px;
@@ -39,7 +39,7 @@ body {
 .menu__item:hover {
   font: 800 20px/24px 'Montserrat', arial, helvetica, sans-serif;
   padding: 13px 30px 13px 30px;
-  background: #330099;
+  background: #309;
   text-decoration: none;
   color: #fff;
   border-radius: 50px;
@@ -57,7 +57,7 @@ body {
 .header__description-first {
   display: block;
   font: 900 40px/49px 'Montserrat', arial, helvetica, sans-serif;
-  color: #330099;
+  color: #309;
   padding: 151px 0 0 53%;
   width: 38%;
   text-align: right;
@@ -92,13 +92,18 @@ body {
   justify-content: space-between;
 }
 
-.main__column-title, .main__column-title-second, .main__column-title-third {
+.main__column-title,
+.main__column-title-second,
+.main__column-title-third {
   font: 900 30px/37px 'Montserrat', arial, helvetica, sans-serif;
   color: #585858;
   margin-bottom: 9px;
 }
 
-.main__column-subtitle, .main__column-subtitle-second, .main__column-subtitle-third {
+
+.main__column-subtitle,
+.main__column-subtitle-second,
+.main__column-subtitle-third {
   font: 500 20px/24px 'Montserrat', arial, helvetica, sans-serif;
   width: 95%;
   margin: 0 auto;
@@ -148,12 +153,11 @@ body {
   text-decoration: none;
   color: #ffda45;
   padding: 20px 37px;
-  background: #330099;
+  background: #309;
   border-radius: 50px;
   display: block;
   margin: 0 auto;
   width: 272px;
-
 }
 
 .subMain {
@@ -288,12 +292,12 @@ form input {
   font: 900 20px/24px 'Montserrat', arial, helvetica, sans-serif;
   padding: 23px 90px;
   color: #fff;
-  background: #4AB272;
+  background: #4ab272;
   border-radius: 50px;
 }
 
 .basement {
-  background: #330099;
+  background: #309;
 }
 
 .basement__title {
@@ -342,19 +346,17 @@ form input {
 }
 
 @media (max-width: 1150px) {
-
   .header__description-first {
-    padding: 121px 0 0 45%;
-    width: 38%;
+    padding: 121px 0 0 51%;
+    width: 45%;
     margin: 0 0 10px 0;
     text-align: left;
   }
 
   .header__description-second {
     width: 40%;
-    padding: 0 5px 133px 52.5%;
+    padding: 0 5px 133px 49.5%;
     text-align: right;
- }
 
   .subMain__column-first {
     width: 88%;
@@ -379,35 +381,59 @@ form input {
     background: no-repeat center top url(ico/submainthird.png);
     margin: 0 auto;
   }
-
 }
 
-@media (max-width: 1000px) {
-
-  .main__column-title, .main__column-title-second, .main__column-title-third {
+@media (max-width: 969px) {
+  .main__column-title,
+  .main__column-title-second,
+  .main__column-title-third {
     font: 900 25px/37px 'Montserrat', arial, helvetica, sans-serif;
   }
 
+  .header__description-first {
+    padding: 121px 0 0 45%;
+    width: 50%;
+    margin: 0 0 10px 0;
+    text-align: left;
+  }
+
+  .header__description-second {
+    width: 40%;
+    padding: 0 5px 133px 49.5%;
+    text-align: right;
+  }
 }
 
 @media (max-width: 875px) {
-
   .header__description {
     margin: 0 0 50px 0;
   }
 
-    .main__column-title, .main__column-title-second, .main__column-title-third {
+  .header__description-first {
+    padding: 69px 0 9px 36%;
+    width: 53%;
+    margin: 0 0 10px 0;
+    text-align: left;
+  }
+
+  .header__description-second {
+    width: 40%;
+    padding: 0 5px 133px 49.5%;
+    text-align: right;
+  }
+
+  .main__column-title,
+  .main__column-title-second,
+  .main__column-title-third {
     font: 900 20px/37px 'Montserrat', arial, helvetica, sans-serif;
+  }
+
+  form {
+    padding-left: 0;
   }
 }
 
-@media (max-width: 875px) {
-  form {
-    padding-left: 0px;
-  }
-
 @media (max-width: 666px) {
-
   .header__description {
     background: no-repeat url(img/background.svg);
     margin: 0 0 7.5vw 0;
@@ -428,7 +454,7 @@ form input {
   .menu__item-сall {
     font: 800 15px/18px 'Montserrat', arial, helvetica, sans-serif;
     padding: 5px 11px;
-    background: #330099;
+    background: #309;
     text-decoration: none;
     color: #fff;
     border-radius: 50px;
@@ -438,13 +464,12 @@ form input {
   .menu__item:hover {
     font: 800 15px/18px 'Montserrat', arial, helvetica, sans-serif;
     padding: 0;
-    background: #330099;
+    background: #309;
     text-decoration: none;
     color: #fff;
     border-radius: 50px;
-    padding: 5px 11px;
     margin-right: 3%;
-}
+  }
 
   .header__description-first {
     display: block;
@@ -463,9 +488,6 @@ form input {
     text-align: right;
     color: #fff;
   }
-
-
-
 
   .main {
     margin-bottom: 15vw;
@@ -544,7 +566,7 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .main__column-subtitle-third {
@@ -567,7 +589,7 @@ form input {
     text-decoration: none;
     color: #ffda45;
     padding: 17px 21px;
-    background: #330099;
+    background: #309;
     border-radius: 50px;
     margin: 0 auto;
   }
@@ -586,7 +608,7 @@ form input {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
+    background: no-repeat  bottom url(ico/scroll.png);
   }
 
   .subMain__title {
@@ -616,19 +638,16 @@ form input {
   .subMain__column-first-subtitle {
     font: 500 14px/17px 'Montserrat', arial, helvetica, sans-serif;
     color: #585858;
-    display: block;
     padding-bottom: 20vw;
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
-  }
-
-  .subMain__column-first-subtitle {
+    background: no-repeat  bottom url(ico/scroll.png);
     display: none;
   }
 
-  .subMain__column-second, .subMain__column-third {
+  .subMain__column-second,
+  .subMain__column-third {
     display: none;
   }
 
@@ -684,12 +703,12 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     padding: 15px 82px;
     color: #fff;
-    background: #4AB272;
+    background: #4ab272;
     border-radius: 50px;
   }
 
   .basement {
-    background: #330099;
+    background: #309;
   }
 
   .basement__title {
@@ -713,8 +732,8 @@ form input {
   }
 
   .basement__logo-img {
-    width: 35px !important;
-    height: 35px !important;
+    width: 35px;
+    height: 35px;
   }
 
   .basement__rights {
@@ -726,16 +745,14 @@ form input {
   }
 }
 
-@media (max-width: 500px) { 
+@media (max-width: 500px) {
   form {
     padding-left: 20%;
     margin: 0;
-    width: 100%;
   }
 }
 
-@media (max-width: 473px) { 
-
+@media (max-width: 473px) {
   .menu__item {
     display: none;
   }
@@ -753,7 +770,7 @@ form input {
   .menu__item-сall {
     font: 800 8px/10px 'Montserrat', arial, helvetica, sans-serif;
     padding: 5px 11px;
-    background: #330099;
+    background: #309;
     text-decoration: none;
     color: #fff;
     border-radius: 50px;
@@ -774,7 +791,7 @@ form input {
     display: flex;
     align-items: center;
     position: absolute;
-    top: 0.6%;
+    top: 2%;
     left: 88%;
     width: 23px;
     height: 16px;
@@ -789,7 +806,7 @@ form input {
     position: absolute;
     width: 100%;
     height: 3px;
-    background: #330099;
+    background: #309;
   }
 
   .menu__btn > span::before {
@@ -814,14 +831,13 @@ form input {
     padding: 175px 0;
     list-style: none;
     text-align: center;
-    background-color: #FFDA45;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    background-color: #ffda45;
   }
 
   .menu__items {
     display: block;
     padding: 12px 24px;
-    color: #330099;
+    color: #309;
     font: normal 25px/35px 'Montserrat', arial, helvetica, sans-serif;
     text-decoration: none;
   }
@@ -945,7 +961,7 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .main__column-subtitle-third {
@@ -968,7 +984,7 @@ form input {
     text-decoration: none;
     color: #ffda45;
     padding: 17px 21px;
-    background: #330099;
+    background: #309;
     border-radius: 50px;
     margin: 0 auto;
   }
@@ -987,7 +1003,7 @@ form input {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
+    background: no-repeat  bottom url(ico/scroll.png);
   }
 
   .subMain__title {
@@ -1017,19 +1033,16 @@ form input {
   .subMain__column-first-subtitle {
     font: 500 14px/17px 'Montserrat', arial, helvetica, sans-serif;
     color: #585858;
-    display: block;
+    display: none;
     padding-bottom: 20vw;
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
+    background: no-repeat  bottom url(ico/scroll.png);
   }
 
-  .subMain__column-first-subtitle {
-    display: none;
-  }
-
-  .subMain__column-second, .subMain__column-third {
+  .subMain__column-second,
+  .subMain__column-third {
     display: none;
   }
 
@@ -1079,12 +1092,12 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     padding: 15px 82px;
     color: #fff;
-    background: #4AB272;
+    background: #4ab272;
     border-radius: 50px;
   }
 
   .basement {
-    background: #330099;
+    background: #309;
   }
 
   .basement__title {
@@ -1108,8 +1121,8 @@ form input {
   }
 
   .basement__logo-img {
-    width: 35px !important;
-    height: 35px !important;
+    width: 35px;
+    height: 35px;
   }
 
   .basement__rights {
@@ -1122,7 +1135,6 @@ form input {
 }
 
 @media (max-width: 320px) {
-
   .menu__item {
     display: none;
   }
@@ -1140,7 +1152,7 @@ form input {
   .menu__item-сall {
     font: 800 8px/10px 'Montserrat', arial, helvetica, sans-serif;
     padding: 5px 11px;
-    background: #330099;
+    background: #309;
     text-decoration: none;
     color: #fff;
     border-radius: 50px;
@@ -1176,7 +1188,7 @@ form input {
     position: absolute;
     width: 100%;
     height: 3px;
-    background: #330099;
+    background: #309;
   }
 
   .menu__btn > span::before {
@@ -1201,14 +1213,13 @@ form input {
     padding: 175px 0;
     list-style: none;
     text-align: center;
-    background-color: #FFDA45;
-    box-shadow: 1px 0 6px rgba(0, 0, 0, .2);
+    background-color: #ffda45;
   }
 
   .menu__items {
     display: block;
     padding: 12px 24px;
-    color: #330099;
+    color: #309;
     font: normal 25px/35px 'Montserrat', arial, helvetica, sans-serif;
     text-decoration: none;
   }
@@ -1332,7 +1343,7 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     width: 90%;
     margin: 0 auto;
-    margin-bottom: 0px;
+    margin-bottom: 0;
   }
 
   .main__column-subtitle-third {
@@ -1355,7 +1366,7 @@ form input {
     text-decoration: none;
     color: #ffda45;
     padding: 17px 21px;
-    background: #330099;
+    background: #309;
     border-radius: 50px;
     margin: 0 auto;
   }
@@ -1374,7 +1385,7 @@ form input {
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
+    background: no-repeat  bottom url(ico/scroll.png);
   }
 
   .subMain__title {
@@ -1404,19 +1415,16 @@ form input {
   .subMain__column-first-subtitle {
     font: 500 14px/17px 'Montserrat', arial, helvetica, sans-serif;
     color: #585858;
-    display: block;
+    display: none;
     padding-bottom: 20vw;
     text-align: center;
     width: 90%;
     margin: 0 auto;
-    background: no-repeat  bottom url(ico/scroll.png)
+    background: no-repeat  bottom url(ico/scroll.png);
   }
 
-  .subMain__column-first-subtitle {
-    display: none;
-  }
-
-  .subMain__column-second, .subMain__column-third {
+  .subMain__column-second,
+  .subMain__column-third {
     display: none;
   }
 
@@ -1466,12 +1474,12 @@ form input {
     font: 900 16px/20px 'Montserrat', arial, helvetica, sans-serif;
     padding: 15px 82px;
     color: #fff;
-    background: #4AB272;
+    background: #4ab272;
     border-radius: 50px;
   }
 
   .basement {
-    background: #330099;
+    background: #309;
   }
 
   .basement__title {
@@ -1495,8 +1503,8 @@ form input {
   }
 
   .basement__logo-img {
-    width: 35px !important;
-    height: 35px !important;
+    width: 35px;
+    height: 35px;
   }
 
   .basement__rights {
